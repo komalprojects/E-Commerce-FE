@@ -1,3 +1,47 @@
+
 .App {
   text-align: center;
+  display: grid;
+}
+
+.nav-ul {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+  background-color: rgb(124, 214, 236);
+}
+
+.nav-ul a {
+  color: rgb(245, 237, 237);
+  text-decoration: none;
+}
+
+.footer {
+  margin: 10px;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(124, 214, 236);
+}
+
+.form input {
+  justify-content: space-between;
+  margin: 15px;
+  padding: 15px;
+}
+
+.form div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form button {
+  border: none;
+  padding: 19px;
+  margin: 18px;
+  cursor: pointer;
 }
